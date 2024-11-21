@@ -6,7 +6,7 @@
             "request": "launch",
             "name": "Executar arquivo atual",
             "skipFiles": ["<node_internals>/**"],
-            "program": "${teste}"
+            "program": "${file}"
         }
     ]
 }
