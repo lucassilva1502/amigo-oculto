@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio Amigo Oculto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sorteio Amigo Oculto</h1>
+    <p>Insira seu nome para realizar o sorteio:</p>
+    <input type="text" id="userName" placeholder="Seu primeiro nome">
+    <button onclick="sorteio()">Sortear</button>
+    <div id="result"></div>
+</body>
+<script src="script.js"></script>
+</html>
